@@ -1,0 +1,33 @@
+my application is independent of the OS but jvm is not.
+
+byte code => code understand by jvm
+java is WORA (write once run anywhere)
+
+jdk has jre , jre has jvm
+
+when a code is run, it runs inside the jre and jvm is responsible for the execution of the code.
+
+Datatype => primitive type and ???
+
+primitive type => contains int, boolean, character, and float
+
+
+in java character uses UNICODE not ascii
+
+
+explicitly conversion of data type is call casting.
+for example;
+int a = 256;
+byte b = 16;
+
+b = (byte)a;
+
+but explicitly conversion of types may lose data while converting types if the value is not in the range of max holding value of data type.
+
+
+
+Java give an option of type promotion like if the caluction exceded the range of data type holding capacity you can save the result of calcution in different data types having bigger range to store values.
+for example:
+byte a = 10;
+byte b = 30;
+int result = a*b;
