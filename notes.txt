@@ -5,6 +5,9 @@ java is WORA (write once run anywhere)
 
 jdk has jre , jre has jvm
 
+you can run your code with the help of JDK on JVM.
+there is an extra layar called JRE which contains all the inbuilt classes, libraries and it also validates you byte code.
+
 when a code is run, it runs inside the jre and jvm is responsible for the execution of the code.
 
 Datatype => primitive type and ???
