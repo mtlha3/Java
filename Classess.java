@@ -6,6 +6,14 @@ class add{
         return result;
     }
 
+    public String str(int a){
+
+        if(a>=10)
+            return "Music";
+        
+        return "Nothing";
+    }
+
 
 
 }
@@ -18,6 +26,8 @@ class classs{
         add obj = new add();
 
         int res = obj.add(d,b);
+        String str1 = obj.str(12);
         System.out.println(res);
+        System.out.println(str1);
     }
 }
