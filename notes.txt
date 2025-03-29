@@ -34,3 +34,6 @@ for example:
 byte a = 10;
 byte b = 30;
 int result = a*b;
+
+
+In java the methods having same name and different no of parameters or the types of parameters are differnet in multiple method with same name are called method overloading
